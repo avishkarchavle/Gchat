@@ -87,7 +87,7 @@ function App() {
 
                 <p className="card-text">{q.response}</p>
                 <button className="mic-icon btn btn-outline-secondary" onClick={() => toggleSpeech(q.response)}>
-                  <img src="https://cdn-icons-png.flaticon.com/128/1186/1186128.png" alt="Microphone" />
+                  <img src={`${process.env.PUBLIC_URL}/microphone.png`} />
                 </button>
                 <br></br>
               </div>
